@@ -1,0 +1,342 @@
+body{
+  width: 100%;
+}
+
+#atama{
+  margin-top: 10px;
+  display: flex;
+}
+#title {
+  margin-left: 10px;
+ background-color: grey;
+}
+
+#title a {
+  text-decoration: none;
+  color: black;
+}
+
+#h {
+  font-size: 15px;
+  margin: auto 20px auto auto;
+}
+
+#h a{
+  text-decoration:none;
+  border: 1px solid;
+  padding: 2px;
+}
+
+#ribon{
+  background-color: red;
+  list-style: none;
+  display: flex;
+  height: 50px;
+}
+
+#ribon > li, #ribon a{
+  font-size: 20px;
+ text-decoration :none;
+ margin: auto;
+ color: white;
+}
+
+#ribon a:hover,#h a:hover,#link:hover{
+  opacity: 60%;
+}
+
+h2{
+  text-align: center;
+}
+
+#HWimg{
+  width: 100%;
+  border: solid;
+}
+
+#HWimg:hover{
+  color: aqua;
+}
+
+#gyo{
+  padding: auto;
+}
+
+#site{
+  list-style: square;
+}
+
+#button {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#wabe {
+display: grid;
+grid-template:
+ " a . . . . . ." 
+ " . b . . . . ." 
+ " . . c . . . ." 
+ " . . . d . . ." 
+ " . . . . e . ." 
+ " . . . . . f ." 
+ " . . . . g . ." 
+ " . . . h . . ." 
+ " . . i . . . ." 
+ " . j . . . . ." 
+ " k . . . . . ." 
+ " . l . . . . ." 
+ " . . . . . . ." 30px
+ " . . . m n o ." 
+ " . x . . . p ." 
+ " . w . . . q ." 
+ " . v u t s r ." 
+ " . . . . . . ." 30px
+ " . . y z . . ." 
+ " . . . aa . . ." 
+ " . . ac ab . . ." 
+ " . . ad . . . ." 
+ " . . ae af . . ." 
+ " . . . ag . . ." 
+ " . . . ah . . ." 
+ " . . aj ai . . ." 
+ " bb bb bb bb bb bb bb" 
+ / 30px 30px 30px 30px 30px 30px 1fr;
+}
+
+#h1{
+  grid-area: a;
+  color: blue;
+}
+#e1{
+  grid-area: b;
+  color: white;
+  background-color: tomato;
+  text-align: center;
+}
+#l1{
+  grid-area: c;
+  font-family: "Seaweed Script";
+  color: aqua;
+  text-align: center;
+  position: relative;
+}
+#l11{
+  grid-area: d; 
+}
+#l11:hover{
+  font-size: 40px;
+  color: #ba9186;
+}
+#o1{
+  grid-area: e;
+  background-color: yellow;
+  text-align: center;
+}
+
+#_1{
+  grid-area: f;
+}
+#w1{
+  grid-area: g;
+  font-family: 'Sacramento', cursive;
+}
+#o11{
+  grid-area: h;
+  color: coral;
+}
+#o11:hover{
+  font-size: 50px;
+  color: coral;
+}
+#r1{
+  grid-area: i;
+  font-size: 30px;
+  font-family: fantasy;
+}
+#l111{
+  grid-area: j;
+  background-color: darkgreen;
+  color: green;
+  text-align: center;
+}
+#d1{
+  grid-area: k;
+}
+#d1:hover{
+  color: darkslateblue;
+}
+#B1{
+  grid-area: l;
+  font-size: 20px;
+  color: lightpink;
+}
+#h2{
+  grid-area: m;
+  background-color: red;
+  text-align: center;
+}
+#e2{
+  grid-area: n;
+  background-color: #ff1010;
+  text-align: center;
+}
+#l2{
+  grid-area: o;
+  background-color: #ff2020;
+  text-align: center;
+}
+#l22{
+  grid-area: p;
+  background-color: #ff3030;
+  text-align: center;
+}
+#o2{
+  grid-area: q;
+  background-color: #ff4040;
+  text-align: center;
+}
+#_2{
+  grid-area: r;
+  background-color: #ff5050;
+  text-align: center;
+}
+#w2{
+  grid-area: s;
+  background-color: #ff6060;
+  text-align: center;
+}
+#o22{
+  grid-area: t;
+  background-color: #ff7070;
+  text-align: center;
+}
+#r2{
+  grid-area: u;
+  background-color: #ff8080;
+  text-align: center;
+}
+#l222{
+  grid-area: v;
+  background-color: #ff9090;
+  text-align: center;
+}
+#d2{
+  grid-area: w;
+  background-color: #fdaaaa;
+  text-align: center;
+}
+#B2{
+  grid-area: x;
+  background-color: #ffbbbb;
+  text-align: center;
+}
+#h3{
+  grid-area: y;
+  font-size: 20px;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#e3{
+  grid-area: z;
+  font-size: 20px;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#l3{
+  grid-area: aa;
+  font-size: 20px;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#l333{
+  grid-area: ab;
+  font-size: 20px;
+  font-weight: 900;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#o3{
+  grid-area: ac;
+  font-size: 20px;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#_3{
+  grid-area: ad;
+  font-size: 20px;
+  color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#w3{
+  grid-area: ae;
+  font-size: 20px;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B, #FFA73D , #FF7C00 , #FF7F04 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#o33{
+  grid-area: af;
+  font-size: 20px;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B, #FFA73D , #FF7C00 , #FF7F04 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#r3{
+  grid-area: ag;
+  font-size: 20px;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B, #FFA73D , #FF7C00 , #FF7F04 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#l3333{
+  grid-area: ah;
+  font-size: 20px;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B, #FFA73D , #FF7C00 , #FF7F04 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#d3{
+  grid-area: ai;
+  font-size: 20px;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B, #FFA73D , #FF7C00 , #FF7F04 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#B3{
+  grid-area: aj;
+  font-size: 20px;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B, #FFA73D , #FF7C00 , #FF7F04 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+footer{
+  grid-area: bb;
+  background-color: pink;
+  text-align: center;
+}
+
